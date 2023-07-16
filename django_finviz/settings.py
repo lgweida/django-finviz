@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-$45e__e$e@ae&(t+-=4n-y#r%#!cdq36j8(*143zn4+1e!&421
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['129.213.18.27', '127.0.0.1'i, 'django-finviz.onrender.com']
+ALLOWED_HOSTS = ['129.213.18.27', '127.0.0.1', 'django-finviz.onrender.com']
 
 
 # Application definition
