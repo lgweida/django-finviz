@@ -7,4 +7,5 @@ lxml
 pandas
 requests
 ta
+gunicorn
 yfinance
