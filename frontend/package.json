@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "dev": "webpack --mode development --watch",
-    "build": "NODE_OPTIONS='--openssl-legacy-provider' webpack --mode production"
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
