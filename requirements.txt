@@ -8,4 +8,5 @@ pandas
 requests
 ta
 gunicorn
+whitenoise
 yfinance
