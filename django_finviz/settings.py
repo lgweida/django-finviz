@@ -122,14 +122,9 @@ STATIC_URL = '/static/'
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = [BASE_DIR / "static"] # new
+STATIC_ROOT = BASE_DIR / "staticfiles" # new
 
-
-
-
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "frontend/static"),
-)
 
 
 # Default primary key field type
