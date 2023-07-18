@@ -122,8 +122,8 @@ STATIC_URL = '/static/'
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-STATICFILES_DIRS = [BASE_DIR / "static"] # new
-STATIC_ROOT = BASE_DIR / "staticfiles" # new
+# STATICFILES_DIRS = [BASE_DIR / "static"] # new
+# STATIC_ROOT = BASE_DIR / "staticfiles" # new
 
 
 
